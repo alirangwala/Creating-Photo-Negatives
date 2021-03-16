@@ -6,12 +6,14 @@
 </head>
 <body>
 <h1>Image Processor</h1>
-<input type="file" accept="image/*" id="fileInput" />
+<input type="file" accept=".bmp" id="fileInput" />
 <div>
     <label for="negative">Negative</label>
     <input type="checkbox" id="negative">
     <br/>
     <canvas id="canvas" width="0" height="0"></canvas>
+    <canvas id="canvasNeg" width="0" height="0"></canvas>
+
 </div>
 <script src="converter.js"></script>
 </body>
